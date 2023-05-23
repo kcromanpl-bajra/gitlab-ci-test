@@ -36,3 +36,4 @@ rspec_test:
   script:
     - docker compose --env-file /dev/null -f dct.yml run --user "$(id -u):$(id -g)" test rails spec
   coverage: /\(\d+.\d+\%\) covered/
+
